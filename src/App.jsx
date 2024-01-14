@@ -6,6 +6,7 @@ import { TodoProivder } from "./contexts";
 import { TodoForm, TodoItem } from "./components";
 
 // This is just a todo app which stores the informaion into the local storage
+// I am using the react with context and i has used tailwind for the css
 
 function App() {
   const [todos, setTodos] = useState([]);
