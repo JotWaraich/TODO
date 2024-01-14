@@ -5,6 +5,8 @@ import "./App.css";
 import { TodoProivder } from "./contexts";
 import { TodoForm, TodoItem } from "./components";
 
+// This is just a todo app which stores the informaion into the local storage
+
 function App() {
   const [todos, setTodos] = useState([]);
 
